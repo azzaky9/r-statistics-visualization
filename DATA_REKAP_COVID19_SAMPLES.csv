@@ -1,0 +1,4 @@
+periode_data,id_kel,nama_provinsi,nama_kota,nama_kecamatan,nama_kelurahan,odp,proses_pemantauan,selesai_pemantauan,odp_meninggal,pdp,masih_dirawat,pulang_dan_sehat,pdp_meninggal,positif,dirawat,sembuh,meninggal,self_isolation,keterangan
+202007,3173071001,DKI JAKARTA,JAKARTA BARAT,PALMERAH,PALMERAH,440,14,37,2,387,0,0,0,1,0,1,861,162,699
+202007,3175011004,DKI JAKARTA,JAKARTA TIMUR,MATRAMAN,PAL MERIAM,111,5,0,2,104,1,0,1,1,0,1,327,9,318
+202007,3172051001,DKI JAKARTA,JAKARTA UTARA,PADEMANGAN,PADEMANGAN TIMUR,211,2,11,2,196,0,0,0,12,0,12,428,22,406

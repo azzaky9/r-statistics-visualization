@@ -1,0 +1,4 @@
+ID ,Nama Pasien,Tanggal Lahir,Umur ,Jenis kelamin  ,Alamat,Diangnosa Penyakit,Nama Perawat ,Usia,Alamat2,Job ,Nama Dokter,Alamat3,Job,Kategori umur ,Jenis cluster
+A3,Anthony Fuller,02/08/1964,61tahun,Pria,"57776 Anderson Trafficway Apt. 042, North Justin, OK 59666",Jantung,aliza kartika,25 tahun,bandung ,perawat spesialis jantung dewasa- tua ,Dr.khadijah humairah ,medan ,DR.Spesialis jantung dewasa- tua ,30+ tahun ,C3-A
+B3,Bradley Miller,20/02/1948,#VALUE!,Pria,"5533 Paul Viaduct, Lake Paul, ND 39608",kanker,puput novita ,24 tahun,medan ,perawat Spesialis kanker dewasa- tua ,Dr.joko widoyo ,medan ,DR.Spesialis kanker dewasa-tua,30+ Tahun,C3-B
+A1,Christopher Thompson,12/06/2022,2tahun,Pria,"3664 Gonzalez Stream Apt. 648, Davismouth, TX 39880",jantung,Siti Rahmawati,30 tahun,Jakarta selatan ,Perawat Spesialis Jantung anak-remaja,Dr. Rifky anggi prayuda,jakarta selatan ,DR.Spesialis jantung anak- remaja,1 tahun - 15tahun ,C1-A
