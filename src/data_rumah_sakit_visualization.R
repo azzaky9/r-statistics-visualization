@@ -17,7 +17,7 @@ library(DT)         # Untuk tabel interaktif
 
 # 2. Membaca data
 # Mengubah path sesuai dengan lokasi file
-data_rs <- read.csv("DATA_RUMAH_SAKIT_400.csv", stringsAsFactors = FALSE)
+data_rs <- read.csv("./data/DATA_RUMAH_SAKIT_400.csv", stringsAsFactors = FALSE)
 
 # 3. Menampilkan struktur data
 str(data_rs)
@@ -208,10 +208,10 @@ datatable(data_rs,
 # -----------------------
 
 # Simpan plot sebagai file gambar
-ggsave("distribusi_jenis_kelamin.png", plot1, width = 8, height = 6)
-ggsave("distribusi_diagnosis.png", plot2, width = 8, height = 6)
-ggsave("distribusi_kategori_umur.png", plot3, width = 8, height = 6)
-ggsave("hubungan_umur_diagnosis.png", plot5, width = 10, height = 6)
+ggsave("./assets/distribusi_jenis_kelamin.png", plot1, width = 8, height = 6)
+ggsave("./assets/distribusi_diagnosis.png", plot2, width = 8, height = 6)
+ggsave("./assets/distribusi_kategori_umur.png", plot3, width = 8, height = 6)
+ggsave("./assets/hubungan_umur_diagnosis.png", plot5, width = 10, height = 6)
 
 # Simpan hasil analisis deskriptif dalam file CSV
 write.csv(data.frame(
@@ -222,7 +222,7 @@ write.csv(data.frame(
     paste(names(table(data_rs$`Kategori umur`)), ":", table(data_rs$`Kategori umur`), collapse = ", "),
     paste(names(table(data_rs$`Jenis cluster`)), ":", table(data_rs$`Jenis cluster`), collapse = ", ")
   )
-), "analisis_deskriptif.csv", row.names = FALSE)
+), "./data/analisis_deskriptif.csv", row.names = FALSE)
 
 # 12. Kesimpulan dan Insight
 # -------------------------

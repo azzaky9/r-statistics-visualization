@@ -12,7 +12,7 @@ library(treemapify)   # For resolving error treemap renderer
 
 # Read the CSV file
 # Replace with your file path
-covid_data <- read.csv("DATA_REKAP_COVID19.csv", stringsAsFactors = FALSE)
+covid_data <- read.csv("./data/DATA_REKAP_COVID19.csv", stringsAsFactors = FALSE)
 
 # Display structure of the data
 str(covid_data)
